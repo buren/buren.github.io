@@ -63,6 +63,7 @@ a:hover {
 #main p {
   font-size: 11px;
   line-height: 2;
+  margin-left: 20px;
 }
 
 #logo {
@@ -253,5 +254,5 @@ li.repo h3 {
 
 .current-position {
   text-align: center;
-  margin: -20px 0 20px 0;
+  margin: -20px 0 10px 0;
 }
