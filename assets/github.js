@@ -1,3 +1,5 @@
+GITHUB_USER = 'buren';
+
 (function ($, undefined) {
 
   // Put custom repo URL's in this object, keyed by repo name.
@@ -54,7 +56,7 @@
     repos = repos || [];
     page = page || 1;
 
-    var uri = "https://api.github.com/users/buren/repos?callback=?"
+    var uri = "https://api.github.com/users/" + GITHUB_USER + "/repos?callback=?"
             + "&per_page=100"
             + "&page="+page;
 
